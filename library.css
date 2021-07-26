@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Poppins&display=swap');
+
+
+:root{
+    --cor-principal: #30A8F2;
+    --cor-secundaria: #F58145;
+    --cor-destaque: #D7F0FE;
+    --hover: #ff8d55;
+    --cor-fonte: #0A344F;
+    --cor-fonte2: #420F0B;
+    --tamanho-geral: 80%;
+    --font-family-principal: 'Poppins', sans-serif;
+    --font-family-secundaria: 'Cormorant Garamond', serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: var(--cor-secundaria);
+    background: var(--cor-destaque);
+}
+  
+::selection {
+    color: var(--cor-secundaria);
+    background: var(--cor-destaque);
+}
+
+/*Muda o tamanho padrão de fonte*/
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+
+/*Padroniza a familia e cor do texto*/
+html,
+body{
+    font-family: var(--font-family-principal);
+    color: var(--cor-fonte);
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}

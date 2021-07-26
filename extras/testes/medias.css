@@ -1,0 +1,194 @@
+@media (min-width: 2000px){
+    html{
+        font-size: 85%;
+    }
+    /*=============header=================*/
+    header .container{
+        width: 70%;
+
+    }
+    /*=============header=================*/
+    /*================hero================*/
+    section.hero img{
+        width: 780px;
+    }
+    section.hero .container{
+        width:70%;
+    }
+    
+    section.hero .container .textBx{
+        max-width: 1300px;
+    }
+    section.hero p{
+        margin-bottom: 100px;
+    }
+    /*================hero================*/
+
+    /*=============beneficios=============*/
+    .services .heading{
+        padding-top: 30px;
+    }
+    .services .content{
+        height: 350px;
+    }
+    .services .content .servicesBx{
+        max-width: 400px;
+    }
+    .services .content .servicesBx:hover{
+        height: 270px;
+    }
+    /*=============beneficios=============*/
+    /*===============video================*/
+    .video{
+        width: 70%;
+    }
+    .video iframe{
+        width: 600px;
+        height: 338px;
+    }
+    .contentBx{
+        width: 760px;
+    }
+    /*===============video================*/
+
+    /*==============antihero==============*/
+    section.antihero .container{
+        width: 70%;
+
+    }
+    section.antihero img{
+        width: 750px;
+    }
+    section.antihero .container .textBx{
+        max-width: 750px;
+    }
+    /*==============antihero==============*/
+}
+
+/*
+@media (max-width: 1200px){
+    html{
+        font-size: 50%;
+    }
+    /*===============header===============
+    header img{
+        width: 200px;
+        padding: 5px 0;
+    }
+    /*===============header===============
+
+    /*================hero================
+    section.hero img{
+        width: 380px;
+    }
+    section.hero .container .textBx{
+        max-width:400px;
+    }
+    /*================hero================
+
+    /*=============beneficios=============
+    .services .content{
+        padding-bottom: 20px;
+    }
+    .services .content .servicesBx{
+        max-width: 220px;
+    }
+    .services .content .servicesBx:hover{
+        height: 200px;
+    }
+    /*=============beneficios=============
+
+    /*===============video================
+    .video iframe{
+        width: 395px;
+        height: 200px;
+    }
+    .contentBx{
+        width: 300px;
+        margin-left: 65px;
+    }
+    .contentBx img{
+        width: 30px;
+    }
+    /*===============video================
+
+    /*==============antihero==============
+    section.antihero img{
+        width: 400px;
+    }
+    section.antihero .container .textBx{
+        max-width: 370px;
+    }
+    /*==============antihero==============
+}
+
+@media (max-width: 868px){
+    .btn{
+        margin: 10px 0px 0px;
+        padding: 8px 20px;
+        border-radius: 50px;
+    }
+    input[type=email]{
+        width: 240px;
+        height: 25px;
+        padding: 0 15px;
+    }
+    /*===============header===============
+    header img{
+        width: 170px;
+    }
+    /*===============header===============
+
+    /*================hero================
+    section.hero img{
+        width: 300px;
+    }
+    section.hero .container .textBx{
+        max-width: 280px;
+        margin: 80px 0;
+    }
+    section.hero p{
+        margin: 10px 0 20px 0;
+    }
+    /*================hero================
+
+    /*=============beneficios=============
+    .services .content{
+        padding-bottom: 0px;
+    }
+    .services .content .servicesBx{
+        max-width: 170px;
+        margin: 10px;
+    }
+    .services .content .servicesBx:hover{
+        height: 210px;
+    }
+    /*=============beneficios=============
+
+    /*===============video================
+    .video iframe{
+        width: 300px;
+        height: 170px;
+    }
+    .contentBx{
+        margin-left: 30px;
+        width: 250px;
+    }
+    .contentBx img{
+        width: 20px;
+    }
+    .contentBx p{
+        margin: 5px;
+    }
+    /*===============video================
+
+    /*==============antihero==============
+    section.antihero img{
+        width: 300px;
+    }
+    section.antihero .container .textBx{
+        max-width: 285px;
+    }
+    /*==============antihero==============
+}
+*/

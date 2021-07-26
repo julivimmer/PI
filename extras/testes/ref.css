@@ -1,0 +1,199 @@
+/*Cabecalho*/
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0 200px;
+    padding-top: 20px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+
+header.sticky{
+    background: #fff;
+    padding: 0 200px;
+    padding-top: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+header img{
+    max-width: 60%;
+    min-width: 150px;
+}
+
+/*Menu*/
+header ul{
+    position: relative;
+    display: flex;
+}
+
+header ul li{
+    position: relative;
+    list-style: none;
+}
+
+header ul li a{
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+    padding-bottom: 10px;
+    color: #0A344F;
+    text-decoration: none;
+    font-family: 'Cormorant Garamond', serif;
+    text-transform: lowercase;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+/*Texto e imagem*/
+section{
+    padding: 0 200px;
+}
+
+.banner{
+    position: relative;
+    min-height: 100vh;
+    background: url(/img/finance.png);
+    background-size:48vw;
+    background-repeat: no-repeat;
+    background-position: 112% 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner h2{
+    font-size: 2.5em;
+    color: #0A344F;
+    line-height: 1.5em;
+}
+
+/*Formulario*/
+.banner legend{
+    margin-top: 100px;
+}
+
+.banner input[type=email]{
+    padding: 7px;
+    padding-left: 20px;
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    background: #F2F2F2;
+    box-shadow: inset 5px 3px 15px rgba(190, 209, 221, 0.5);
+}
+
+.btn{
+    position: relative;
+    background: #F58145;
+    display: inline-block;
+    color:#420F0B;
+    margin-top: 20px;
+    padding: 10px;
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 5px 3px 10px #C26738;
+}
+
+.btn:hover{
+    box-shadow: 5px 3px 10px #F58145;
+}
+
+
+/*Beneficios*/
+.services{
+    background: linear-gradient(266.71deg, #5EBFFB 31.25%, #30A8F2 84.98%), #30A8F2;
+    text-align: center;
+}
+
+.heading h3{
+    font-size: 1.8em;
+    padding: 50px 0;
+}
+
+.services .content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: row;
+    padding-bottom: 50px;
+}
+
+.services .content .servicesBx{
+    max-width: 250px;
+    margin: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.services .content .servicesBx:hover{
+    box-shadow: 0px 10px 10px #298FCE;
+}
+
+.services .content .servicesBx img{
+    margin-bottom: 10px;
+    background-color: #298FCE;
+    border-radius: 30px;
+    box-shadow: 0px 10px 10px #2786C1;
+}
+
+/*Vídeo*/
+.video{
+    margin: 150px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contentBx{
+    padding-left: 60px;
+    text-align: center;
+}
+
+.contentBx h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contentBx p{
+    margin: 20px 0;
+}
+
+/*Conclusao*/
+.conclusao{
+    margin: 200px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.conclusaoBx{
+    padding-right: 60px;
+}
+
+.conclusaoBx h3{
+    font-size: 24px;
+    margin: 50px 0;
+}
+
+.conclusaoBx p{
+    margin-bottom: 50px;
+}
+
+.w50{
+    min-width: 50%;
+}
+
+.w50 img{
+    max-width: 100%;
+}
